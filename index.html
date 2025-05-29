@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>VapeZone - Tu tienda de Vapers</title>
+  <link rel="stylesheet" href="estilos.css" />
+</head>
+<body>
+
+  <header>
+    <h1>VapeZone</h1>
+    <p>Tu tienda online de vapers y accesorios</p>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="#productos">Productos</a></li>
+      <li><a href="#ofertas">Ofertas</a></li>
+      <li><a href="#video">Video</a></li>
+      <li><a href="#socio">Hazte Socio</a></li>
+      <li><a href="#contacto">Contacto</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <section id="productos">
+      <h2>Nuestros Productos</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Imagen</th>
+            <th>Producto</th>
+            <th>Precio</th>
+            <th>Disponibilidad</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><img src="vape1.jpg" alt="Vaper 1" class="vape-img"/></td>
+            <td>Vaper desechable Ice Blue</td>
+            <td>12,99 €</td>
+            <td>Disponible</td>
+          </tr>
+          <tr>
+            <td><img src="vape2.jpg" alt="Vaper 2" class="vape-img"/></td>
+            <td>Kit recargable SmokeX</td>
+            <td>34,50 €</td>
+            <td>Disponible</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section id="ofertas">
+      <h2>Ofertas de la Semana</h2>
+      <details>
+        <summary>Ver promociones</summary>
+        <p>🔹 2x1 en líquidos sabor frutas para los socios<br>🔹 10% de descuento en tu primera compra  <br>🔹 20% de descuento para pedido superiores de 100 euros en socios</p>
+      </details>
+    </section>
+
+    <section id="video">
+        <h2>Video Promocional</h2>
+        <div class="video-container">
+          <iframe width="100%" height="400" 
+            src="https://www.youtube.com/embed/mXm-YXrg9BA" 
+            title="Video de VapeZone" 
+            frameborder="0" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+            allowfullscreen>
+          </iframe>
+        </div>
+      </section>
+      
+
+    <section id="socio">
+      <h2>Hazte Socio</h2>
+      <p>Hazte socio por 20€ al mes y recibe ofertas exclusivas!</p>
+      <form>
+        <label for="nombreSocio">Nombre:</label>
+        <input type="text" id="nombreSocio" name="nombreSocio" required>
+
+        <label for="emailSocio">Email:</label>
+        <input type="email" id="emailSocio" name="emailSocio" required>
+
+        <button type="submit">Registrarse</button>
+      </form>
+    </section>
+
+    <aside>
+      <h3>Tips del Vaper</h3>
+      <p>Recuerda cargar tu vaper con el cargador original para mayor duración de batería.</p>
+    </aside>
+
+    <section id="contacto">
+      <h2>Contáctanos</h2>
+      <form>
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" required>
+
+        <label for="mensaje">Mensaje:</label>
+        <textarea id="mensaje" rows="4" required></textarea>
+
+        <button type="submit">Enviar</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 VapeZone. Todos los derechos reservados.</p>
+  </footer>
+
+</body>
+</html>

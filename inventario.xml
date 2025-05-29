@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<inventario>
+    <vaper id="PC001">
+        <ubicacion>Almacen izq</ubicacion>
+        <usuario>Sergio Zamarra Rager</usuario>
+        <tipos>desechable</tipos>
+    </vaper>
+    <vaper id="PC002">
+        <ubicacion>Almacen derecha</ubicacion>
+        <usuario>Sergio Zamarra Rager</usuario>
+        <tipo>reutilizables</tipo>
+    </vaper>
+</inventario>

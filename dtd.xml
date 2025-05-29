@@ -1,0 +1,7 @@
+<!ELEMENT inventario (vaper+)>
+<!ELEMENT vaper (ubicacion, usuario, tipos?|tipo?)>
+<!ATTLIST vaper id ID #REQUIRED>
+<!ELEMENT ubicacion (#PCDATA)>
+<!ELEMENT usuario (#PCDATA)>
+<!ELEMENT tipos (#PCDATA)>
+<!ELEMENT tipo (#PCDATA)>
